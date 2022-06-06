@@ -34,6 +34,12 @@ nav a p:hover{
     
 }
 
+nav a p:active{
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px #000000;
+    font-weight: 700;
+}
+
 nav .current-location p{
     color: rgb(0, 0, 0) ;
     text-shadow: 2px 2px #ffea00;
@@ -108,9 +114,14 @@ nav a p {
     width: 50%;
     min-width: 350px;
     flex-wrap: wrap;
-    height: width;
+
 }
 
+.line2{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
 
 .about h2{
     text-align: center;
